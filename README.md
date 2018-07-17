@@ -42,14 +42,21 @@ node index.js
 
 * API  
 兑奖  /award/安全区二维码/物流二维码  
-历史记录  /history/   
+历史记录  /history/     
 日志  /logs  
-账号状态  /status
+账号状态  /status  
+短信验证  /verify
 
 
 
 * 简易面板  
-http://host:port/dashboard
+http://host:port/dashboard  
+首页  
+![img](images/index.png)  
+兑奖  
+![img](images/award.png)  
+兑奖结果  
+![img](images/result.png)
 
 
 ## 二次开发

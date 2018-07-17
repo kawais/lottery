@@ -1,4 +1,5 @@
 # 体彩兑奖接口
+体育彩票淘宝兑奖程序
 
 ## 特性
 * 使用淘宝api
@@ -50,3 +51,21 @@ node index.js
 http://host:port/dashboard
 
 
+## 二次开发
+* 兑奖后处理  
+修改lib/Storage.js中的save方法，data结构如下
+```
+{
+    "account":"支付宝账号",
+    "secCode":"安全区二维码",
+    "expressCode":"物流二维码",
+    "result":{
+        "gameName":"游戏名称",
+        "amount":面额，单位分,
+        "prize":奖金，单位分,
+        "prizeLevel":"中奖级别",
+        "accountName":"支付宝账号"
+    },
+    "raw":"支付宝返回原始结果"
+}
+```

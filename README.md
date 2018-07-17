@@ -52,11 +52,11 @@ node index.js
 * 简易面板  
 http://host:port/dashboard  
 首页  
-![img](images/index.png)  
+![img](doc/images/index.png)  
 兑奖  
-![img](images/award.png)  
+![img](doc/images/award.png)  
 兑奖结果  
-![img](images/result.png)
+![img](doc/images/result.png)
 
 
 ## 二次开发

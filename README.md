@@ -57,8 +57,9 @@ http://host:port/dashboard
 兑奖  
 ![img](doc/images/award.png)  
 兑奖结果  
-![img](doc/images/result.png)
-
+![img](doc/images/result.png)  
+中奖奖金入淘宝账号  
+![img](doc/images/taobao.png)  
 
 ## 二次开发
 * 兑奖后处理  

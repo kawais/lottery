@@ -41,7 +41,7 @@ node index.js
 ```
 
 * API  
-兑奖  /award/安全区二维码/物流二维码  
+兑奖  /award/安全区二维码/物流二维码 或 /award/安全区二维码  
 历史记录  /history/     
 日志  /logs  
 账号状态  /status  

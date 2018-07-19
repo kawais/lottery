@@ -87,4 +87,7 @@ http://host:port/dashboard
 * 支付宝登录验证码每天有发送限制。
 
 ## 代码
-略
+
+```
+talk is cheap, show me the money.
+```
